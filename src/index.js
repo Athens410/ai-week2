@@ -1,1 +1,1 @@
-alert("test888");
+alert("test");

@@ -1,6 +1,7 @@
 h1{
     color: rgb(255, 128, 240);
     font-size: 43px;
+    animation: glitter 2s infinite;
 }
 
 body{

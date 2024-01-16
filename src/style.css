@@ -1,8 +1,9 @@
-h1{
+h1 {
     color: rgb(255, 128, 240);
     font-size: 43px;
     animation: glitter 2s infinite;
-
+    font-family: 'Red Hat Display', sans-serif;
+    display: inline-block;
 }
 @keyframes glitter {
     0% {

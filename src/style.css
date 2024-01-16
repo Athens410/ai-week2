@@ -3,26 +3,27 @@ h1 {
     font-size: 43px;
     position: relative;
     display: inline-block;
-    text-shadow:  2px yellow;
+    
     font-family: 'Montserrat', sans-serif;
     animation: glitter 2s alternate-reverse infinite;
 }
 
 @keyframes glitter {
-
-    0%,
-    100% {
-        text-shadow: 0 0 5px yellow, 0 0 12px yellow, 0 0 40px yellow;
+    0% {
+        text-shadow: 0 0 1px yellow, 0 0 4px yellow;
     }
 
     50% {
-        text-shadow: none;
-     
+        text-shadow: 0 0 4px yellow, 0 0 8px yellow;
+    }
+
+    100% {
+        text-shadow: 0 0 10px yellow, 0 0 4px yellow;
     }
 }
 body{
 
     text-align: center;
-background: rgb(94, 43, 43);
-    background: radial-gradient(circle, rgba(94, 43, 43, 1) 0%, rgba(231, 184, 178, 1) 52%, rgba(94, 43, 43, 1) 100%);
+background: rgb(151, 66, 245);
+    background: radial-gradient(circle, rgba(151, 66, 245, 1) 0%, rgba(231, 184, 178, 1) 52%, rgba(94, 43, 43, 1) 100%);
 }

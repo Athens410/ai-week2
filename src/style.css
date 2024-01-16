@@ -2,8 +2,24 @@ h1{
     color: rgb(255, 128, 240);
     font-size: 43px;
     animation: glitter 2s infinite;
-}
 
+}
+@keyframes glitter {
+    0% {
+        box-shadow: 0 0 5px 0 yellow;
+      
+    }
+
+    50% {
+        box-shadow: 0 0 20px 5px yellow;
+      
+    }
+
+    100% {
+        box-shadow: 0 0 5px 0 yellow;
+       
+    }
+}
 body{
 
     text-align: center;

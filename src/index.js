@@ -9,7 +9,7 @@ function generatePoem(event){
 
 
 const typewriter = new Typewriter("#poem", {
-  strings: 'hello skies and cats',
+  strings: 'La tombe dit a la rose',
    autoStart: true,
 
   cursor: "",

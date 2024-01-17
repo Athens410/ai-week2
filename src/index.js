@@ -5,7 +5,8 @@ function generatePoem(event){
   event.preventDefault();
 
 
-    alert("hello skies!");
+   let poemElement = document.querySelector("#poem");
+   poemElement.innerHTML = ("hello skies")
 }
 
 

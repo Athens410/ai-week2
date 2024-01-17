@@ -30,6 +30,9 @@ background: rgb(151, 66, 245);
 input{
 
     padding: 12px;
+    border-radius: 12px;
+
+    color: rgb(255, 255, 255);
 }
 form{
 

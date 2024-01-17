@@ -35,6 +35,13 @@ border: 2px solid;
     color: rgb(255, 255, 255);
     width: 50%;
 }
+
+.skies{
+border-radius: 12px;
+    border: 2px solid #fff;
+    padding: 14px;
+   
+}
 form{
 
     padding: 30px;

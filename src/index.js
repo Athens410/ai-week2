@@ -5,8 +5,14 @@ function generatePoem(event){
   event.preventDefault();
 
 
-   let poemElement = document.querySelector("#poem");
-   poemElement.innerHTML = ("hello skies")
+  
+
+
+
+   new Typewriter("#poem", {
+  strings: 'hello skies and cats',
+  autoStart: true,
+});
 }
 
 

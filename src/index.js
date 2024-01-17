@@ -2,10 +2,10 @@
 function generatePoem(event){
 
 
-    event.preventDefualt()
+  event.preventDefault();
 
 
-    alert("hello skies!")
+    alert("hello skies!");
 }
 
 

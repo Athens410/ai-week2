@@ -38,8 +38,9 @@ border: 2px solid;
 
 .skies{
 border-radius: 12px;
-    border: 2px solid #fff;
+    border:none;
     padding: 14px;
+    background-color: rgb(190, 122, 235);
    
 }
 form{

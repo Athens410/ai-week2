@@ -11,7 +11,8 @@ function generatePoem(event){
 
    new Typewriter("#poem", {
   strings: 'hello skies and cats',
-  autoStart: true,
+  delay: 1,
+  cursor: "",
 });
 }
 

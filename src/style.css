@@ -27,10 +27,14 @@ body{
 background: rgb(151, 66, 245);
     background: radial-gradient(circle, rgba(151, 66, 245, 1) 0%, rgba(231, 184, 178, 1) 52%, rgba(94, 43, 43, 1) 100%);
 }
+input{
 
+    padding: 12px;
+}
 form{
 
-    padding: 53px;
-
+    padding: 30px;
+background-color: rgba(137, 43, 226, 0.17);
+border-radius: 12px;
 
 }

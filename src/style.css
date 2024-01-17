@@ -34,6 +34,7 @@ background: rgb(151, 66, 245);
 border: 2px solid;
     color: rgb(255, 255, 255);
     width: 50%;
+    
 }
 
 .skies{
@@ -43,6 +44,7 @@ border-radius: 12px;
     background-color: rgb(190, 122, 235);
    width: 150px;
    color: rgb(255, 255, 255);
+    max-width: 200px;
 }
 form{
 

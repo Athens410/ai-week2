@@ -52,12 +52,10 @@ border-radius: 12px;
 
 }
 
-.poem{
-
-margin: 44px;
+.poem {
+    margin: 44px auto;
     font-size: 14px;
     background-color: rgb(255, 255, 255);
     padding: 22px;
-    width: 12%;
-    
+    max-width: 200px;
 }

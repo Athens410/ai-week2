@@ -8,12 +8,16 @@ function generatePoem(event){
   
 
 
-
-   new Typewriter("#poem", {
+const typewriter = new Typewriter("#poem", {
   strings: 'hello skies and cats',
-  delay: 1,
+   autoStart: true,
+
   cursor: "",
 });
+
+
+
+
 }
 
 

@@ -23,15 +23,15 @@ let instructionsInput = document.querySelector("#user-instructions");
 let apiKey = "06a4f404921b3294b64d64f35o0f753t";
 let prompt = `Generate a French poem about ${instructionsInput.value}`;
 
-let context = "";
+let context = "you are a romantic poem expert and love to write short poems. Your mission is to generate a 4 line poem in basic HTML. ";
 let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
 
   event.preventDefault();
 
 console.log("generating poem");
-console.log(`prompt: ${prompt}`);
-console.log(`context: ${context}`);
+console.log(`Prompt: ${prompt}`);
+console.log(`Context: ${context}`);
   axios.get(apiUrl).then(displayPoem);
 
 

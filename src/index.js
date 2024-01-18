@@ -1,4 +1,21 @@
 
+function displayPoem(response){
+
+
+
+const typewriter = new Typewriter("#poem", {
+  strings: response.data.answer,
+   autoStart: true,
+
+  cursor: "",
+});
+
+
+}
+
+
+
+
 function generatePoem(event){
 
 
@@ -16,12 +33,7 @@ let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${
   axios.get(apiUrl).then(displayPoem);
 
 
-const typewriter = new Typewriter("#poem", {
-  strings: 'La tombe dit a la rose',
-   autoStart: true,
 
-  cursor: "",
-});
 
 
 

@@ -4,14 +4,16 @@ function generatePoem(event){
 
 
 let apiKey = "06a4f404921b3294b64d64f35o0f753t";
+let prompt = "";
 
+let context = "";
 let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
 
   event.preventDefault();
 
 
-  
+  axios.get(apiUrl).then(displayPoem);
 
 
 const typewriter = new Typewriter("#poem", {

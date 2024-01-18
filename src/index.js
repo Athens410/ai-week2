@@ -1,7 +1,7 @@
 
 function displayPoem(response){
 
-
+console.log("poem generating ");
 
 const typewriter = new Typewriter("#poem", {
   strings: response.data.answer,

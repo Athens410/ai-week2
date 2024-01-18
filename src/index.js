@@ -21,7 +21,7 @@ function generatePoem(event){
 
 
 let apiKey = "06a4f404921b3294b64d64f35o0f753t";
-let prompt = "";
+let prompt = "Generate a French poem about flowers";
 
 let context = "";
 let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;

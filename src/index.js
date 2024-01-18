@@ -23,7 +23,7 @@ let instructionsInput = document.querySelector("#user-instructions");
 let apiKey = "06a4f404921b3294b64d64f35o0f753t";
 
 
-let context = "you are a romantic poem expert and love to write short poems. Your mission is to generate a 4 line poem in basic HTML and seperate each line with a <br />.Do not  include any tittle.Sign the end of the poem with 'SheCodes Ai' put it inside a <strong> element at the end of the poem and not at the beginning.";
+let context = "you are a romantic poem expert and love to write short poems. Your mission is to generate a 4 line poem in basic HTML and seperate each line with a <br />.Do not  include any tittle.Sign the poem with 'SheCodes AI' inside a <strong> element at the end of the poem and NOT at the beginning";
 
 let prompt = `user instructions: Generate a French poem about ${instructionsInput.value}`;
 

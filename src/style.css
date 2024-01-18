@@ -29,12 +29,13 @@ background: rgb(151, 66, 245);
 }
 .instructions{
 
-    padding: 12px;
-    border-radius: 12px;
-border: 2px solid;
-    color: rgb(0, 0, 0);
-    width: 50%;
-    border: none;
+padding: 16px;
+    border: 1px solid rgba(39, 33, 66, 0.5);
+    width: 80%;
+    font-size: 16px;
+    border-radius: 50px;
+    line-height: 20px;
+    color: #272044;
     
 }
 

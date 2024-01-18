@@ -1,3 +1,13 @@
+body{
+font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+background: rgb(151, 66, 245);
+    background: radial-gradient(circle, rgba(151, 66, 245, 1) 0%, rgba(231, 184, 178, 1) 52%, rgba(94, 43, 43, 1) 100%);
+}
+
+
+
+
 h1 {
     color: rgb(255, 128, 240);
     font-size: 43px;
@@ -21,12 +31,7 @@ h1 {
         text-shadow: 0 0 10px yellow, 0 0 4px yellow;
     }
 }
-body{
 
-    text-align: center;
-background: rgb(151, 66, 245);
-    background: radial-gradient(circle, rgba(151, 66, 245, 1) 0%, rgba(231, 184, 178, 1) 52%, rgba(94, 43, 43, 1) 100%);
-}
 .instructions{
 
 padding: 16px;
@@ -65,7 +70,7 @@ border-radius: 12px;
     border-left: 2px solid rgb(150, 2, 255);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-   color: black;
+ 
 }
 .poem strong{
 

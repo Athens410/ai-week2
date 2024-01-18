@@ -6,7 +6,7 @@ console.log("poem generated ");
 const typewriter = new Typewriter("#poem", {
   strings: response.data.answer,
    autoStart: true,
-
+ delay: 1,
   cursor: "",
 });
 

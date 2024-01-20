@@ -34,6 +34,8 @@ let poemElement = document.querySelector("#poem");
 
 poemElement.classList.remove("hidden");
 
+poemElement.innerHTML = `Loading a tpoic about ${instructionsInput.value} `
+
   event.preventDefault();
 
 console.log("generating poem");

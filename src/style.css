@@ -44,7 +44,8 @@ padding: 16px;
     
 }
 .form-container{
-    background-color: rgb(255, 255, 255);
+background-color: rgba(137, 43, 226, 0.17);
+    border-radius: 12px;
 }
 .skies{
 border-radius: 12px;

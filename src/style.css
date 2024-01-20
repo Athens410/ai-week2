@@ -47,11 +47,13 @@ padding: 16px;
 .hint{
 font-family: 'Montserrat', sans-serif;
     color: aliceblue;
+    padding: 12px;
 }
 
 
 .form-container{
-background-color: rgba(137, 43, 226, 0.17);
+padding: 30px;
+    background-color: rgb(34, 22, 45);
     border-radius: 12px;
 }
 .skies{
@@ -66,7 +68,7 @@ border-radius: 12px;
 form{
 
     padding: 30px;
-background-color: rgba(137, 43, 226, 0.17);
+background-color: rgba(34, 22, 45, 0.17);
 border-radius: 12px;
 
 

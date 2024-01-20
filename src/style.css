@@ -43,6 +43,13 @@ padding: 16px;
     color: #000000;
     
 }
+
+.hint{
+font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+}
+
+
 .form-container{
 background-color: rgba(137, 43, 226, 0.17);
     border-radius: 12px;

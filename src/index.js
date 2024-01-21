@@ -34,7 +34,7 @@ let poemElement = document.querySelector("#poem");
 
 poemElement.classList.remove("hidden");
 
-poemElement.innerHTML = `Loading a tpoic about ${instructionsInput.value} `
+poemElement.innerHTML = `<div class="generating"> Loading a tpoic about ${instructionsInput.value}  </div>`
 
   event.preventDefault();
 

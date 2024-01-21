@@ -30,9 +30,8 @@ let prompt = `user instructions: respond to user inputs by generating concise an
 let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
 
-let poemElement = document.querySelector("#poem");
-
-poemElement.classList.remove("hidden");
+ let poemElement = document.querySelector("#poem");
+  poemElement.classList.remove("hidden");
 
 poemElement.innerHTML = `<div class="generating"> ⏳Loading a topic about ${instructionsInput.value}  </div>`
 

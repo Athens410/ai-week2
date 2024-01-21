@@ -31,7 +31,9 @@ h1 {
         text-shadow: 0 0 10px yellow, 0 0 4px yellow;
     }
 }
-
+.hidden {
+    display: none;
+}
 .instructions{
 
 padding: 16px;
@@ -50,10 +52,7 @@ font-family: 'Montserrat', sans-serif;
     padding: 12px;
 }
 
-.hidden{
 
-    display: none;
-}
 .form-container{
 padding: 30px;
     background-color: rgba(157, 69, 239, 0.258);

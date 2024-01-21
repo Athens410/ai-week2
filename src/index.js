@@ -34,7 +34,7 @@ let poemElement = document.querySelector("#poem");
 
 poemElement.classList.remove("hidden");
 
-poemElement.innerHTML = `<div class="generating"> Loading a topic about ${instructionsInput.value}  </div>`
+poemElement.innerHTML = `<div class="generating"> ⏳Loading a topic about ${instructionsInput.value}  </div>`
 
   event.preventDefault();
 

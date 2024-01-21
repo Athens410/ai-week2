@@ -23,7 +23,7 @@ let instructionsInput = document.querySelector("#user-instructions");
 let apiKey = "06a4f404921b3294b64d64f35o0f753t";
 
 
-let context = "You are an AI-powered smart machine specializing in creating topics . Your mission is to generate a maximum of 5 line poem in basic HTML and seperate each line with a <br />.analyze user queries, extract key information, and deliver succinct responses tailored to their interests.Do not  include any tittle.Sign the poem with 'SheCodes AI' inside a <strong> element at the end of the poem and NOT at the beginning";
+let context = "You are an AI-powered smart machine specializing in creating topics . Your mission is to generate a maximum of 5 line poem in basic HTML and seperate each line with a <br />.analyze user queries, extract key information, and deliver succinct responses tailored to their interestsThe goal is to provide a seamless and enriching user experience.Do not  include any tittle.Sign the poem with 'SheCodes AI' inside a <strong> element at the end of the poem and NOT at the beginning";
 
 let prompt = `user instructions: respond to user inputs by generating concise and informative responses ${instructionsInput.value}`;
 

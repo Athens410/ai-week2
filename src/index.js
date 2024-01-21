@@ -1,7 +1,7 @@
 
 function displayPoem(response){
 
-console.log("poem generated ");
+
 
 const typewriter = new Typewriter("#poem", {
   strings: response.data.answer,
@@ -38,9 +38,7 @@ poemElement.innerHTML = `<div class="generating"> ⏳Loading a topic about ${ins
 
   event.preventDefault();
 
-console.log("generating poem");
-console.log(`Prompt: ${prompt}`);
-console.log(`Context: ${context}`);
+
   axios.get(apiUrl).then(displayPoem);
 
 
